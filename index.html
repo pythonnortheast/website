@@ -22,6 +22,46 @@
                 border: 1px solid #999;
             }
             
+            #meetup-container {
+            border: 1px solid #999;
+            padding: 8px;
+            margin-top: 16px;
+            background-color: #fff;
+            border-radius: 8px;
+            }
+            
+            #sponsors-container {
+            margin: auto;
+            border: 1px solid #999;
+            padding: 8px;
+            margin-top: 16px;
+            background-color: #fff;
+            border-radius: 8px;
+            }
+
+            #sponsors-container h2 {
+            color: #666;
+            font-size: 16px;
+            margin-top: 4px;
+            }
+
+            
+            #img-container {
+            display: table;
+            width:98%;
+            }
+            
+            #img-container  a {
+            display: table-cell;
+            text-align: center;
+            width:25%;
+            }
+            
+            #img-container img {
+            width:160px;
+            vertical-align: middle;
+            }
+            
             h1 {
                 color: #333;
             }
@@ -31,10 +71,19 @@
                 font-size: 20px;
             }
 
+            h3 {
+                color: #444; 
+                font-size: 16px;
+            }
+
+            h4 {
+                color: #224499; 
+                font-size: 12px;
+            }
+
             header nav {
                 margin: 8px 0px;
             }
-
 
             header nav a {
                 margin: 4px;
@@ -54,7 +103,7 @@
     <body>
         <header>
             <nav>
-                <a href="/">Home</a> | <a href="blog">Blog</a> | <a href="http://attending.io/events/python-ne-august-2014-data-wrangling-with-pandas">Meet-ups</a> | <a
+                <a href="/">Home</a> | <a href="blog">Blog</a> | <a href="http://attending.io/events/python-north-east-sept-2014-kivy-salt">Meet-ups</a> | <a
                 href="group">Discussion</a>
             </nav>
         </header>
@@ -66,20 +115,54 @@
             <h1>Python North East</h1>
 
             <h2>Introduction</h2>
-            <p>Welcome to the site of the North East of England's Python community. We're a group who promote 
-               the use of the Python programming language. We organise meet-ups and other community events
-               and aim to be a focal part of the wider Python community in the North East. We're also super
-               friendly - beginners and non-Pythonistas are especially welcome to our events and to participate
-               in our discussions.</p>
-               
-            <p>This website is still somewhat under-construction but there are still a few things to see.
-               Start with the <a href="blog">blog</a> to find out more.</p>
+            <p>Welcome to the site of the North East of England's
+               Python community. We're a group who promote the use of
+               the Python programming language. We organise monthly
+               meet-ups and other community events and aim to be a
+               focal part of the wider Python community in the North
+               East. We're also super friendly - beginners and
+               non-Pythonistas are especially welcome to our events
+               and to participate in our discussions.</p>
 
-            <h2>Meet-ups</h2>
-            <p>Find about our next meet-up (13th August 2014) and get tickets for it <a href="http://attending.io/events/python-ne-august-2014-data-wrangling-with-pandas">here</a></p>
+            <div id="meetup-container">
+              <h2>Our next meet up: <a href="http://attending.io/events/python-north-east-sept-2014-kivy-salt">
+                  Python North East Sept 2014 - Kivy & Salt</a></h2>
+              <h3>Wed 10th Sept 2014 at <a href="http://ignite100.com/"> Campus North</a> </h3>
+              <p>This month we are really lucky to have not one but two fantastic
+              talks: First up <b>Mike Hibbert</b> (@MickeySoFine) will tell
+                us about <a href=""><b>Kivy</b></a> which is a Python framework for the rapid
+              development of innovative user interfaces (like touch
+              apps); Second <b>Scott Walton</b> will tell us about the server
+              provisioning and infrastructure management tool <a href=""><b>Salt</b></a>.  </p>
+
+            <p>Sign up and more details <a href="http://attending.io/events/python-north-east-sept-2014-kivy-salt">here</a>.</p>
+            </div>
+
             <h2>Get in touch</h2>
             <p>Follow us on <a href="http://twitter.com/PythonNorthEast">Twitter - @PythonNorthEast</a></p>
             <p>Join us on <a href="group">Google Groups</a></p>
+        </div>
+        
+        <div id="sponsors-container">
+          <h2>Our sponsors:</h2>                          
+          <div id="img-container">
+            <a href="http://www.sharperecruitment.co.uk/"> 
+              <img src="Sharpe_logo_strap_rgb.jpg"  alt="Sharpe
+                                                         Recruitment
+                                                         Logo">
+            </a> 
+            <a href="https://mypebble.co.uk/"> 
+              <img src="PEBBLE.jpg"  alt="PEBBLE LTD Logo">
+            </a> 
+            <a href="http://ignite100.com/"> 
+              <img src="campusnorth.png" alt="Campus North Logo">
+            </a> 
+            <a href="http://ignite100.com/"> 
+              <img src="Ignite_logo_2.jpg" alt="Ignit100 Logo.">
+            </a> 
+          </div>
+        </div>
+
 
         </div>
     </body>
